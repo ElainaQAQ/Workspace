@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Work-one"
 include(":app")
+include(":app:caculator")
+include(":app:table")

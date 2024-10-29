@@ -43,4 +43,37 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="one_one">one,one</string>
+    <string name="one_two">one,two</string>
+    <string name="one_three">one,three</string>
+    <string name="one_four">one,four</string>
+    <string name="two_one">two,one</string>
+    <string name="two_two">two,two</string>
+    <string name="two_three">two,three</string>
+    <string name="two_four">two,four</string>
+    <string name="three_one">three,one</string>
+    <string name="three_two">three,two</string>
+    <string name="three_three">three,three</string>
+    <string name="three_four">three,four</string>
+    <string name="four_one">four,one</string>
+    <string name="four_two">four,two</string>
+    <string name="four_three">four,three</string>
+    <string name="four_four">four,four</string>
+    <string name="hello_tablelayout">Hello TableLayout</string>
+    <string name="open">Open...</string>
+    <string name="ctrl_o">Ctrl+O</string>
+    <string name="save">Save...</string>
+    <string name="ctrl_s">Ctrl+S</string>
+    <string name="save_as">Save As...</string>
+    <string name="ctrl_shift_s">Ctrl+Shift+S</string>
+    <string name="iimport">Import...</string>
+    <string name="export">Export...</string>
+    <string name="ctrl_e">Ctrl+E</string>
+    <string name="quit">Quit</string>
+    <string name="rovers">Rovers</string>
+    <string name="flights">Flights</string>
+    <string name="space_stations">Space Stations</string>
+
+
 </resources>

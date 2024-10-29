@@ -2,9 +2,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.work_one.MainActivity">
+    <item android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single">
+            <!-- 字体大小菜单 -->
+                <item
+                    android:id="@+id/font_small"
+                    android:title="小"
+                    android:icon="@android:drawable/ic_menu_add"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/font_medium"
+                    android:title="中"
+                    android:icon="@android:drawable/ic_menu_search"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/font_large"
+                    android:title="大"
+                    android:icon="@android:drawable/ic_menu_info_details"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="字体颜色">
+        <menu>
+            <!-- 字体颜色菜单 -->
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/color_red"
+                    android:title="红色"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/color_black"
+                    android:title="黑色"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+    <!-- 普通菜单项，点击后弹出 Toast 提示 -->
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:id="@+id/menu_toast"
+        android:title="普通菜单项"
         app:showAsAction="never" />
 </menu>
